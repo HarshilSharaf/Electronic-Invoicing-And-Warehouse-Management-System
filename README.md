@@ -1,14 +1,23 @@
 # Electronic invoicing and warehouse management system
-## Issue electronic invoices, download as pdf, manage your clients, items, employees permissions and etc.
+## Unlimited Free Issue Of Electronic Invoices, Download Or Send As PDF
 
-Current versions:
+### Manage of multiple companies, Manage infoices for different clients and get statistics for them, create protocols or warranties and export to PDF, track paid or unpaid invoices
 
-* Codeigniter 3.1.7
+<h1 align="center">
+    <a href="https://codecanyon.net/item/wp-invoices-pdf-electronic-invoicing-system/36891583">Download Available As WordPress Plugin</a>
+</h1>
+
+<p>Current platform versions:</p>
+
+* Codeigniter 3.1.13 (CodeIgniter Foundation)
 * Bootstrap 3.3.7
 
 ## Donate
-If this project help you reduce time to develop, you can give me a cup of coffee to continue its development. Thank you! :)
-[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=PF5ES4K748ZEY)
+<p>If this project help you reduce time to develop, you can give me a cup of coffee to continue its development. Thank you! :)</p>
+
+[![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=PF5ES4K748ZEY)
+
+<p><b>BTC Address:</b> 3FmdTVWCApEcHT6wmrSCFkUSqaowsaqS9Y</p>
 
 ## Support of following features
 
@@ -27,29 +36,32 @@ If this project help you reduce time to develop, you can give me a cup of coffee
 13. Add you own translations for invoices. Can be added any language you want
 14. Many types of settings such as rounding prices, toner save pdf invoices, etc.
 
-## Installation in 3 easy steps
-1. Import in_dev.sql to your mysql
-2. Set hostname, username and password in application/config/database.php
-3. Set your site domain in application/config/config.php - $config['base_url'] = 'http://yourdomain.com'; (if you want to use it in directory path, set base_url to full path. Eg. http://yourdomain.com/invoicing and remove RewriteBase / from .htaccess!)
+<p>And many more features included..</p>
 
-<p>
-Invoices login:
-1. Go to homepage
-2. Click Registration button and make new registration for you.
-</p>
-<p>
-Administration login: (/admin)
-Username: admin
-Password: admin
-</p>
+## Installation in 2 easy steps
+1. Import database.sql to your MySQL database
+2. Set <b>database</b>, <b>username</b> and <b>password</b> in application/config/database.php
 
-## Wiki
-External software needed to download generated invoices like PDF - https://github.com/kirilkirkov/ei/wiki/External-needed-software
+### Invoices login and issue:
+
+- Go to homepage
+- Click Registration button and make new registration for you.
+- Then login with your new credentials to start issue unlimited invoices, protocols and warranties
+
+<p>Administration login: /admin (eg. https://yoursite.com/admin). Administration is if you wants to manage multiple clients who issues invoices. Of course you can use the platform for your own powerfull invoicing system.</p>
+
+- Username: admin
+- Password: admin
 
 ## Screenshots
+
 ###### pdf invoice
 ![alt text](https://raw.githubusercontent.com/kirilkirkov/ei/master/design/user/design_of_invoice.png?token=ADQ0kH5ObqDK3l2H-K4gXn74aIeVi0fVks5acX1HwA%3D%3D "Logo Title Text 1")
 ###### invoices list
 ![alt text](https://raw.githubusercontent.com/kirilkirkov/ei/master/design/user/design_of_invoices_list.png?token=ADQ0kGLfoXLmpNGV5HYZewfaZHzr3qA9ks5acX1IwA%3D%3D "Logo Title Text 1")
 ###### create invoice page
 ![alt text](https://raw.githubusercontent.com/kirilkirkov/ei/master/design/user/create_invoice_page.png?token=ADQ0kGcYR3mBvj8ANBbPJ8wg8w69gpgPks5acX1FwA%3D%3D "Logo Title Text 1")
+###### stats
+![alt text](https://raw.githubusercontent.com/kirilkirkov/ei/master/design/user/stats.png?token=ADQ0kGcYR3mBvj8ANBbPJ8wg8w69gpgPks5acX1FwA%3D%3D "Logo Title Text 1")
+
+##### No external softwares are needed to generate your pdf files!
